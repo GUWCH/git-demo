@@ -1,20 +1,25 @@
 {
-  "name": "gulp-demo",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUWCH/git-demo.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUWCH/git-demo/issues"
+  },
+  "homepage": "https://github.com/GUWCH/git-demo#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-less": "^3.3.0",
-    "gulp-uglify": "^2.1.2"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }
